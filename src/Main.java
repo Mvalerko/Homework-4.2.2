@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        // переменная, которая содержит информацию об изначлаьном количестве средств на счете клиента
+        // переменная, которая содержит информацию об изначальном количестве средств на счете клиента
         int amountMoneyAccoun = 13502;
         // переменная, которая содержит информацию о сумме пополнения
         int replenishmentAmount = 700;
@@ -19,7 +19,7 @@ public class Main {
             System.out.println("Благодарим за пополнение счета!");
             System.out.println("Теперь у Вас на счете " + totalAccountWithBonuses + " рублей");
             System.out.println("Сумма бонусных рублей за пополнение свыше, чем на 1000 рублей составила " + bonusRubles + " рублей");
-        // Если сумма пополнения была меньше 1000, то считаем без бонусов :(
+            // Если сумма пополнения была меньше 1000, то считаем без бонусов :(
         } else {
             totalAccountNoBonuses = amountMoneyAccoun + replenishmentAmount;
             System.out.println("Благодарим за пополнение счета!");
